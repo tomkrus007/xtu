@@ -1,18 +1,18 @@
 <%= form_for @contact, :html => { :class => 'form-horizontal' } do |f| %>
   <div class="control-group">
-    <%= f.label :name, :class => 'control-label' %>
+    <%= f.label '姓名', :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :name, :class => 'text_field' %>
     </div>
   </div>
   <div class="control-group">
-    <%= f.label :cellphone, :class => 'control-label' %>
+    <%= f.label '手机', :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :cellphone, :class => 'text_field' %>
     </div>
   </div>
   <div class="control-group">
-    <%= f.label :tel, :class => 'control-label' %>
+    <%= f.label '备用电话', :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :tel, :class => 'text_field' %>
     </div>
@@ -30,13 +30,13 @@
     </div>
   </div>
   <div class="control-group">
-    <%= f.label :wx, :class => 'control-label' %>
+    <%= f.label '微信', :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :wx, :class => 'text_field' %>
     </div>
   </div>
   <div class="control-group">
-    <%= f.label :address, :class => 'control-label' %>
+    <%= f.label '地址', :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :address, :class => 'text_field' %>
     </div>
