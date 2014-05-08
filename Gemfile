@@ -42,5 +42,5 @@ gem "therubyracer"
 gem 'less-rails'              #less 依赖 therubyracer
 gem 'twitter-bootstrap-rails' #bootstrap 依赖 less
 gem 'pg', group: :production
-# gem 'rails_12factor', group: :production
+gem 'rails_12factor', group: :production
 gem 'spreadsheet'
