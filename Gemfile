@@ -45,3 +45,5 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 gem 'spreadsheet'
 gem 'devise'
+
+ruby "2.1.1"
