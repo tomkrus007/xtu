@@ -23,7 +23,8 @@
       <div class="nav-collapse">
         <ul class="nav">
           <li><%= link_to "Browse Contacts", contacts_path %></li>
-          <li><%= link_to "登录", contacts_path %></li>
+          <li><%= link_to "登录", new_user_session_path %></li>
+          <li><%= link_to "退出", destroy_user_session_path,:method => :delete %></li>
         </ul>
       </div>
     </div>

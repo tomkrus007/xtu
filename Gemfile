@@ -44,3 +44,4 @@ gem 'twitter-bootstrap-rails' #bootstrap 依赖 less
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 gem 'spreadsheet'
+gem 'devise'
