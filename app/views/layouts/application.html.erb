@@ -33,7 +33,15 @@
 
 <div class="container">
   <div class="row">
-    <div class="span12"><%= yield %></div>
+    <div class="span10"><%= yield %></div>
+    <div class="span2">
+      <h2 align="center">说明</h2>
+      <ul>
+        <li>点击“新增联系人”即可进入新增联系人页面。</li>
+        <li>为防止误操作，修改和删除联系人需要登录后才能执行。</li>
+        <li>登录页面有注册用户链接，<a href="/users/sign_up">sign up</a> 即可。</li>
+      </ul>
+    </div>
   </div>
 </div>
 

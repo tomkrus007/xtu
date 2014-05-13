@@ -3,16 +3,16 @@
 
 en:
   helpers:
-    actions: "Actions"
+    actions: "操作"
     links:
-      back: "Back"
-      cancel: "Cancel"
-      confirm: "Are you sure?"
-      destroy: "Delete"
-      new: "New"
-      edit: "Edit"
+      back: "返回首页"
+      cancel: "取消"
+      confirm: "确定要进行此操作?"
+      destroy: "删除"
+      new: "新增联系人"
+      edit: "编辑"
     titles:
-      edit: "Edit %{model}"
-      save: "Save %{model}"
-      new: "New %{model}"
-      delete: "Delete %{model}"
+      edit: "编辑 %{model}"
+      save: "保存 %{model}"
+      new: "新建 %{model}"
+      delete: "删除 %{model}"

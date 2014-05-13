@@ -1,7 +1,7 @@
 <%- model_class = Contact -%>
 <h1><%= t '.title', :default => '信计二班' %></h1>
 <div class="page-header" style="text-align:right;">
-    <%= link_to t('.new', :default => '新建'),
+    <%= link_to t('.new', :default => t("helpers.links.new")),
               new_contact_path,
               :class => 'btn btn-success' %>
 
